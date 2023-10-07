@@ -1,0 +1,10 @@
+.contenedor{
+    color:white;
+    display: flex;
+}
+
+.texto{
+    color: white;
+    margin-top:40%;
+    font-family: monospace;
+}
