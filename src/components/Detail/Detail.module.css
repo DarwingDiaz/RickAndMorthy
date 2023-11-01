@@ -1,0 +1,25 @@
+.detail{
+    margin: 50px 50px 50px 50px;
+    display: flex;
+    align-items:center;
+    color:white;
+    font-family: monospace;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+}
+
+.caracterisiticas{
+    position: absolute;
+    font-family: monospace;
+    font-size: 5%;
+    margin-right: 50px;
+}
+
+.img{
+    border-radius: 20%;
+    border-style: solid;
+    border-color:#141E46; 
+    width: 25%;
+    margin-left: 50px;
+}

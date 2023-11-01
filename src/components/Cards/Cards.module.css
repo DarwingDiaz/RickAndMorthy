@@ -1,0 +1,10 @@
+.cartas {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 80%;
+    padding: 100px;
+    margin: 20px;
+
+}

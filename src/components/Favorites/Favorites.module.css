@@ -1,0 +1,42 @@
+.conten{
+    position: relative;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.order{
+    margin-inline: 10px;
+    background-color: #45FFCA;
+    color: black;
+    left: 120px;
+    border-style: solid;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    top:10px;
+    font-family: monospace;
+}
+
+.filter{
+    margin-inline: 10px;
+    background-color: #45FFCA;
+    color: black;
+    left: 120px;
+    border-style: solid;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    top:10px;
+    font-family: monospace;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 80%;
+    padding: 80px;
+    margin: 20px;
+}
