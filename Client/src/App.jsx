@@ -46,7 +46,7 @@ function App() {
 
       setCharacters(
          characters.filter( (char) =>{
-            return char.id !== Number(id);
+            return char.id !==(id);
          })
       );
    };
