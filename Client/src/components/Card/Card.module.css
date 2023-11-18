@@ -1,10 +1,13 @@
 .cardContainer{
-    background-color:#45FFCA;
+    flex:50%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 5px groove yellow;
+    border-radius: 10px;
+    background:linear-gradient(#45FFCA, #ffffff);
     max-width: 300px;
     height: 400px;
-    margin: 20px;
-    box-sizing: border-box;
-    padding: 10;
     
 }
 
@@ -12,37 +15,53 @@
     position: relative;
 
 }
-
-.botonCierre{
+.botones{
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    align-items: center; 
     position: absolute;
-    right: 5px;
-    top:5px;
+    right: 1px;
+    
 }
-
+.botonCierre{
+    margin-right: 5px;
+   
+    margin-bottom:100px; 
+}
+.botonfav{
+    margin-right: 5px;
+    margin-left: 100px;
+    margin-bottom:100px; 
+}
 .caracteristicas{
     position: relative;
     display: flex;
     justify-content: space-evenly;
     font-size: 12px;
     color: black;
-    font-family: monospace;
+    font-family: 'Gloria Hallelujah', cursive;
     text-decoration: none;
+    
 }
 
 .nombre{
     position: absolute;
     width: 200px;
-    background-color:#FFD966;
-    height: 50px;
+    background:linear-gradient(#45FFCA, #ffffff);
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    left:-10px;
-    top:-50px;
+    left:5px;
+    top:-60px;
     font-size: 10px;
     color:black;
-    font-family: monospace;
+    font-family:'Gloria Hallelujah', cursive;
     text-decoration: none;
+    border-color: yellow;
+    border-radius: 10px;
+    border-style: groove;
 }
 
 img{

@@ -29,7 +29,7 @@ const Form = ({login}) =>{
     return (
         <form onSubmit={handleSubmit}>
             <div className={styles.formulario}>
-            <img  className={styles.imagen} src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT22tOJBapiFLJPnQ2Ry7KqkFItU2iJLl-peA&usqp=CAU' alt=''/>
+            <img  className={styles.imagen} src="https://www.freepnglogos.com/uploads/rick-and-morty-png/rick-and-morty-rick-face-kushmastafresh-deviantart-19.png" alt=''/>
             <div className={styles.requi}>
                 <div className={styles.usuario}>
                 <label className={styles.label}   htmlFor='email'>EMAIL</label>

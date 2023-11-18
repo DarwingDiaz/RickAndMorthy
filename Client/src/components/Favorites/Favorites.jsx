@@ -32,7 +32,8 @@ const Favorites = (props)=>{
 
             </select>
         </div>
-        <div className={styles.contenedor}>  
+        <div className={styles.contenedor}> 
+            <div className={styles.caracteristicas}> 
             {myFavorites.map((char) => {
             return(
                 <Card
@@ -45,9 +46,10 @@ const Favorites = (props)=>{
                 origin={char.origin?.name}
                 image={char.image}
                 />
-            )
-            })
-}       </div>
+                )
+                })}       
+            </div>
+        </div>
       
     </div>
 

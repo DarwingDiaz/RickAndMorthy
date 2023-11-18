@@ -1,10 +1,11 @@
 .contenedor{
-    color:white;
+    background:linear-gradient(#45FFCA, #ffffff);
     display: flex;
 }
 
 .texto{
-    color: white;
-    margin-top:40%;
-    font-family: monospace;
+    background:linear-gradient(#45FFCA, #ffffff);
+    color: black;
+    margin-top:32%;
+    font-family:'Gloria Hallelujah', cursive;
 }

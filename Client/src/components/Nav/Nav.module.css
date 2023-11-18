@@ -1,47 +1,66 @@
 .naveg{
-    position: relative;
-    background-color: blue;
-    padding: 10px;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+    min-height: 70px;
+    align-items: center;
 }
+
+.logo{
+    height: 70px;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 10px;
+    
+}
+
+.botones{
+    display: flex;
+}
+
 
 .about{
     margin-inline: 10px;
-    background-color:#45FFCA;
+    background:linear-gradient(#45FFCA, #ffffff);
     color: black;
     left: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 80px;
     height: 35px;
     top:10px;
-    border-style: solid;
-    font-family: monospace;
+    border-style:groove;
+    font-family: 'Gloria Hallelujah', cursive;
+    border-color: yellow;
+
 }
 
 
 .home{
     margin-inline: 10px;
-    background-color: #45FFCA;
+    background:linear-gradient(#45FFCA, #ffffff);
     color: black;
     left: 120px;
-    border-style: solid;
-    border-radius: 20px;
+    border-style: groove;
+    border-radius: 10px;
     width: 80px;
     height: 35px;
     top:10px;
-    font-family: monospace;
+    font-family:'Gloria Hallelujah', cursive;
+    border-color: yellow;
+
 } 
 
 .favorites{
     margin-inline: 10px;
-    background-color: #45FFCA;
+    background:linear-gradient(#45FFCA, #ffffff);
     color: black;
     left: 120px;
-    border-style: solid;
-    border-radius: 20px;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: yellow;
     width: 80px;
     height: 35px;
     top:10px;
-    font-family: monospace;
+    font-family:'Gloria Hallelujah', cursive;
 }
+
+
